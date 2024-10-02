@@ -1,0 +1,274 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 40px 80px;
+    }
+
+    .block {
+        gap: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .section2 {
+        padding-left: 80px;
+        padding-right: 200px;
+        gap: 100px;
+    }
+    .section3 {
+        margin-left: 80px;
+        padding-right: 200px;
+    }
+    .paragraph {
+        gap: 48px;
+    }
+    footer {
+        margin-left: 80px;
+        padding-right: 80px;
+    }
+    .buttons {
+        padding-left: 30px;
+        padding-right: 500px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding: 30px 60px;
+    }
+
+    .block {
+        gap: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section2 {
+        padding-left: 40px;
+        padding-right: 100px;
+        gap: 50px;
+    }
+    .section3 {
+        margin-left: 40px;
+        padding-right: 100px;
+    }
+    .paragraph {
+        flex-direction: column;
+        gap: 40px;
+    }
+    footer {
+        margin-left: 40px;
+        padding-right: 40px;
+    }
+    .buttons {
+        padding-left: 20px;
+        padding-right: 300px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .block {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .download {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .download h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .roboto {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .link {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section2 {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 40px;
+    }
+
+    .side1, .side2, .side3 {
+        gap: 30px;
+    }
+
+    .homeheader {
+        font-size: 48px;
+        line-height: 110%;
+    }
+
+    .heading1 {
+        font-size: 40px;
+        line-height: 110%;
+    }
+
+    .heading2 {
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    .heading3 {
+        font-size: 24px;
+        line-height: 140%;
+    }
+
+    .heading4 {
+        font-size: 18px;
+    }
+
+    .heading5 {
+        font-size: 12px;
+    }
+
+    .heading6 {
+        font-size: 10px;
+    }
+    .section3 {
+        margin-left: 20px;
+        padding-right: 40px;
+    }
+    .paragraph {
+        gap: 32px;
+    }
+    .p1, .p2 {
+        max-width: 100%;
+    }
+    .p1 h2, .p2 h2 {
+        font-size: 16px;
+    }
+    .p1 p, .p2 p {
+        font-size: 14px;
+    }
+    footer {
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    .buttons {
+        padding-left: 10px;
+        padding-right: 100px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .buttons button {
+        width: 100%;
+        padding: 14px 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar h2{
+        font-size: 24px;
+    }
+    .block {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .download h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    .link {
+        font-size: 18px;
+    }
+    .section2 {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .homeheader {
+        font-size: 36px;
+    }
+
+    .heading1 {
+        font-size: 32px;
+    }
+
+    .heading2 {
+        font-size: 28px;
+    }
+
+    .heading3 {
+        font-size: 20px;
+    }
+
+    .heading4 {
+        font-size: 16px;
+    }
+
+    .heading5 {
+        font-size: 10px;
+    }
+
+    .heading6 {
+        font-size: 8px;
+    }
+    .section3 {
+        margin-left: 10px;
+        padding-right: 20px;
+    }
+    .paragraph {
+        gap: 20px;
+    }
+    .p1 h2, .p2 h2 {
+        font-size: 14px;
+    }
+    .p1 p, .p2 p {
+        font-size: 12px;
+    }
+    .conts {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .blok, .blok2, .blok3, .blok4, .blok5, .blok6, .blok7, .blok8 {
+        width: 100px;
+        height: 40px;
+    }
+    footer {
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    .buttons {
+        padding-left: 10px;
+        padding-right: 20px;
+        gap: 12px;
+    }
+    .buttons button {
+        padding: 12px 24px;
+    }
+}
